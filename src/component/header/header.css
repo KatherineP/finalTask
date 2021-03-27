@@ -1,0 +1,49 @@
+.fa-shopping-cart {
+  font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'FontAwesome';
+  font-weight: 900;
+  color: #8c55aa;
+  font-size: 1.7rem;
+  margin-right: 10px;
+}
+
+.fa-sign-out-alt {
+  font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'FontAwesome';
+  font-weight: 900;
+  color: #74007a;
+  font-size: 1rem;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.shopping-cart {
+  align-self: center;
+  color: #8c55aa;
+  font-size: 1.3rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sign-out {
+  align-self: center;
+  color: #8c55aa;
+  font-size: 1rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header {
+  justify-content: space-between;
+  margin: 10px 10px;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+
+.header-title {
+  color: #8c55aa;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+  padding-top: 10px;
+}
