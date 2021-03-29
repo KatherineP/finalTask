@@ -25,3 +25,5 @@ Link to the project [Final Task](https://katherinep.github.io/finalTask/).
 2. Catalog
 3. Book pages
 4. Cart
+5. Place order
+6. Routing
