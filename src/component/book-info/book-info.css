@@ -1,0 +1,32 @@
+.card-details {
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.image-container {
+  width: 14rem;
+  margin-right: 20px;
+}
+
+.image {
+  width: 14rem;
+}
+
+.book-desc {
+  padding-top: 2rem;
+}
+
+.tags {
+  align-self: center;
+  color: black;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.fa-tags {
+  font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'FontAwesome';
+  font-weight: 900;
+  color: black;
+  font-size: 1rem;
+  margin-right: 10px;
+}

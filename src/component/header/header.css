@@ -24,6 +24,10 @@
   cursor: pointer;
 }
 
+.shopping-cart:hover {
+  color: #74007a;
+}
+
 .sign-out {
   align-self: center;
   color: #8c55aa;

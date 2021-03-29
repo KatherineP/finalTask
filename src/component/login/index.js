@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './login.css';
-//import logo from '../../../public/assets/login2.png';
+import logo from './login.png';
 import { useSelector, useDispatch } from 'react-redux';
 import { login } from '../../store/middleware';
 import { loginFromLocalStorage } from '../../store/actionCreators';
@@ -14,14 +14,6 @@ const Login = () => {
   const [usernameValue, setUsernameValue] = useState('');
   const [userNameError, setUserNameError] = useState(false);
   const [inputClasses, setInputClasses] = useState('username-input');
-
-  const userInfoFromLocalStorage = localStorage.getItem('userInfo');
-
-  useEffect(() => {
-    if (userInfoFromLocalStorage !== null) {
-      dispatch(loginFromLocalStorage(JSON.parse(userInfoFromLocalStorage)));
-    }
-  }, [dispatch, userInfoFromLocalStorage]);
 
   const handleChangeUsername = (e) => {
     let name = e.target.value;
@@ -39,7 +31,6 @@ const Login = () => {
       setInputClasses('username-input incorrect-username');
     } else {
       setInputClasses('username-input');
-      console.log('login');
       dispatch(login(usernameValue));
     }
   };
@@ -54,11 +45,7 @@ const Login = () => {
         JS Band Store
       </p>
       <div>
-        <img
-          className="login-image"
-          src="/public/assets/login2.png"
-          alt="login"
-        />
+        <img className="login-image" src={logo} alt="login" />
       </div>
       {error ? (
         <ErrorIndicator />

@@ -4,7 +4,11 @@ import { ErrorIndicator } from './error-indicator';
 import { ErrorBoundary } from './error-boundary';
 import { Header } from './header';
 import { BookList } from './book-list';
-import { BookListItem } from './book-list-item';
+import { BookInfo } from './book-info';
+import { BookCart } from './book-cart';
+import { PriceFilter } from './price-filter';
+import { TitleSearch } from './title-filter';
+import { Cart, CartTable } from './cart';
 
 export {
   Login,
@@ -13,5 +17,10 @@ export {
   ErrorBoundary,
   Header,
   BookList,
-  BookListItem,
+  BookInfo,
+  BookCart,
+  PriceFilter,
+  TitleSearch,
+  Cart,
+  CartTable,
 };
